@@ -10,7 +10,7 @@ Steps to configure project
 
 3. do install open ai using `pip install openai`
 
-4
+4. freez the dependencies using `pip freeze > requirements.txt`
 
 
 ## Notes
@@ -30,8 +30,8 @@ WINDOWS - `.\venv\Scripts\activate`
 
 
 Q. what is pip freez and why we need it?
-The command pip freeze > requirements.txt is used to create a file named requirements.txt that contains a list of all the installed Python packages in the current environment along with their versions. This file is useful for:
+The command `pip freeze > requirements.txt` is used to create a file named requirements.txt that contains a list of all the installed Python packages in the current environment along with their versions. This file is useful for:
 
 Reproducibility: Allowing others to replicate the environment by installing the same packages.
 Deployment: Simplifying the process of setting up environments in different systems or servers.
-To install the packages listed in requirements.txt, you can use the command pip install -r requirements.txt.
+To install the packages listed in requirements.txt, you can use the command `pip install -r requirements.txt`.
