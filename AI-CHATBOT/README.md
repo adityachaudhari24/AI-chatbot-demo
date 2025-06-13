@@ -35,3 +35,7 @@ The command `pip freeze > requirements.txt` is used to create a file named requi
 Reproducibility: Allowing others to replicate the environment by installing the same packages.
 Deployment: Simplifying the process of setting up environments in different systems or servers.
 To install the packages listed in requirements.txt, you can use the command `pip install -r requirements.txt`.
+
+
+
+OR try just executing pythonsetup.sh 
